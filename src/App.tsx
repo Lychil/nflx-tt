@@ -1,7 +1,9 @@
+import { GlobalStyles } from "./common/styles/GlobalStyles";
+
 function App() {
   return (
     <>
-      Create
+      <GlobalStyles />
     </>
   )
 }
