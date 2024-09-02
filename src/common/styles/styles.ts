@@ -3,9 +3,12 @@ import { borderRaduis, colors, font } from "./styleConstants";
 import { square } from "./styleHelpers";
 
 export const Container = styled('div')`
-max-width: 1100px;
+max-width: 1150px;
+padding-inline: 20px;
 margin: 0 auto;
 height: 100vh;
+display: grid;
+grid-template-rows: 50px auto 150px;
 `;
 
 export const Content = styled('main')`
