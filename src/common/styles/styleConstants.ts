@@ -1,5 +1,6 @@
 export const font = {
     sizes: {
+        small: '15px',
         main: '17px',
         sectionTitle: '20px',
     },
@@ -17,4 +18,10 @@ export const colors = {
     grayDark: 'rgba(131, 131, 131, 1)',
     blueDark: 'rgba(28, 28, 39, 1)',
     accent: 'rgba(255, 165, 66, 1)',
+
+    whiteTotal: 'rgba(255, 255, 255, 1)'
+}
+
+export const borderRaduis = {
+    circle: "50%"
 }

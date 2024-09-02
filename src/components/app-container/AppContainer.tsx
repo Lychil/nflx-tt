@@ -1,10 +1,11 @@
 import { Outlet } from "react-router-dom";
-import { Container, Content } from "../../styles";
+import { Container, Content } from "@/common/styles/styles";
+import Header from "../header/Header";
 
 export default function AppContainer() {
     return (
         <Container>
-            // header
+            <Header />
             <Content>
                 <Outlet />
             </Content>
