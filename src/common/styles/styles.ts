@@ -4,15 +4,15 @@ import { square } from "./styleHelpers";
 
 export const Container = styled('div')`
 max-width: 1150px;
-padding-inline: 20px;
+padding: 0 20px;
 margin: 0 auto;
-height: 100vh;
-display: grid;
-grid-template-rows: 50px auto 150px;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
 `;
 
 export const Content = styled('main')`
-height: 100%;
+flex-grow: 1;
 `;
 
 export const Logo = styled('img')`

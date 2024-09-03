@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const FooterWrapper = styled('footer')`
+flex-shrink: 0;
+height: 150px;
 padding: 29px;
 box-shadow: ${shadows.default};
 border-radius: ${borderRaduis.medium} ${borderRaduis.medium} 0 0;
