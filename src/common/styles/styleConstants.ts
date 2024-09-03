@@ -1,5 +1,6 @@
 export const font = {
     sizes: {
+        extraSmall: '13px',
         small: '15px',
         main: '17px',
         sectionTitle: '20px',
