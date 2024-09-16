@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const HeaderWrapper = styled('header')`
@@ -14,6 +15,9 @@ column-gap: 45px;
 
 export const HeaderPanelItem = styled('div')`
 position: relative;
+`;
+
+export const HeaderPaneLink = styled(Link)`
 `;
 
 export const HeaderPanelImg = styled('img')`
