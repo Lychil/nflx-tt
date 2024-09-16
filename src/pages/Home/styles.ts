@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const HomeWrapper = styled('div')``;
 
-export const HomeSection = styled('section')`
+export const HomeSectionWrapper = styled('section')`
 margin-bottom: 30px;
 `;
 

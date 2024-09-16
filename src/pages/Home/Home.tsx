@@ -1,18 +1,15 @@
-import { HomeSection, HomeSectionTitle, HomeWrapper } from "./styles";
-import Products from "@/components/products/Products";
+import { HomeWrapper } from "./styles";
 import { products } from "@/common/data/products";
+import HomeSection from "./components/HomeSection";
 
 export default function Home() {
     return (
         <HomeWrapper>
-            <HomeSection>
-                <HomeSectionTitle>Наушники</HomeSectionTitle>
-                <Products products={products.headphones.slice(0, 6)} />
-            </HomeSection>
-            <HomeSection>
-                <HomeSectionTitle>Беспроводные наушники</HomeSectionTitle>
-                <Products products={products.wirelessHeadphones.slice(0, 3)} />
-            </HomeSection>
+            {
+                products.map((elem, i) => (
+                    <HomeSection key={i} products={elem.products} title={elem.title} />
+                ))
+            }
         </HomeWrapper>
     )
 }
